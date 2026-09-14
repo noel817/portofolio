@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyek — Andres Sanoel Sianipar</title>
+<meta name="description" content="Daftar lengkap proyek web, machine learning, dan otomasi LLM lokal oleh Andres Sanoel Sianipar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="nav-name">
+      <span class="nav-mono-badge">AS</span>
+      Andres Sanoel Sianipar
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">Tentang</a></li>
+      <li><a href="proyek.html" class="active">Proyek</a></li>
+      <li><a href="index.html#contact">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" style="padding:72px 0 40px; border-top:none;">
+    <div class="hero-bg"></div>
+    <div class="wrap">
+      <div class="hero-eyebrow mono">Rekam jejak</div>
+      <h1 style="font-size:clamp(2rem, 4.6vw, 3.1rem); max-width:16ch;">Proyek yang pernah dan sedang saya kerjakan.</h1>
+      <p class="hero-role" style="margin-top:18px;">Lima proyek berikut mencakup dua sisi kerja saya: pengembangan web full-stack dan eksplorasi machine learning / LLM lokal. Setiap proyek ditulis apa adanya — termasuk yang masih dalam tahap pengembangan.</p>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:20px;">
+    <div class="section-head">
+      <h2>Semua proyek</h2>
+      <span class="count mono">05 total</span>
+    </div>
+
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-name">Examar</div>
+        <div class="project-tag">WEB</div>
+        <div class="project-status">Selesai · digunakan guru</div>
+      </div>
+      <div class="project-body">
+        <div class="project-block">
+          <div class="project-block-label mono">Ringkasan</div>
+          <p class="project-desc">Aplikasi web untuk membantu guru menyusun dan mengelola soal ujian sekolah secara lokal, tanpa bergantung pada koneksi internet.</p>
+        </div>
+        <div class="project-block">
+          <div class="project-block-label mono">Proses</div>
+          <p class="project-desc">Dibangun dari masalah yang cukup nyata terlihat di lapangan: soal ujian yang bocor atau gampang dicontek karena distribusinya kurang terkontrol. Examar menjalankan seluruh alur — dari pembuatan soal sampai pelaksanaan ujian — di jaringan lokal sekolah, sehingga celah kecurangan lewat internet bisa ditutup.</p>
+        </div>
+        <div class="project-stack mono">
+          <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-name">Web Love</div>
+        <div class="project-tag">WEB</div>
+        <div class="project-status">Selesai</div>
+      </div>
+      <div class="project-body">
+        <div class="project-block">
+          <div class="project-block-label mono">Ringkasan</div>
+          <p class="project-desc">Layanan sederhana untuk mengirim foto pasangan sebagai kado digital.</p>
+        </div>
+        <div class="project-block">
+          <div class="project-block-label mono">Proses</div>
+          <p class="project-desc">Pengguna mengunggah foto, sistem membuatkan halaman personal, lalu tautannya dibagikan ke orang yang memintanya sebagai kejutan. Fokusnya sederhana: pengalaman yang cepat dibuat, cepat dibagikan.</p>
+        </div>
+        <div class="project-stack mono">
+          <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-name">Sinyal ML — BTC / ETH / XAUUSD</div>
+        <div class="project-tag ml">MACHINE LEARNING</div>
+        <div class="project-status">Tahap backtest</div>
+      </div>
+      <div class="project-body">
+        <div class="project-block">
+          <div class="project-block-label mono">Ringkasan</div>
+          <p class="project-desc">Model machine learning yang menghasilkan sinyal beli / tahan / jual untuk BTC, ETH, dan XAUUSD setiap 15 menit.</p>
+        </div>
+        <div class="project-block">
+          <div class="project-block-label mono">Proses</div>
+          <p class="project-desc">Dilengkapi sistem manajemen risiko bernama "100 Green Forest" untuk menjaga keamanan posisi trading. Proyek ini masih dalam tahap backtest — sinyal buy yang pernah diuji langsung berhasil mencapai take profit, meski akurasi keseluruhan model saat ini masih di kisaran 50/50 dan belum layak dipakai untuk keputusan finansial nyata.</p>
+        </div>
+        <div class="project-stack mono">
+          <span>Python</span><span>Model ML</span><span>Automasi Sinyal</span>
+        </div>
+        <div class="project-signal">
+          <span class="signal-buy">● BUY</span>
+          <span class="signal-hold">● HOLD</span>
+          <span class="signal-sell">● SELL</span>
+          <span class="mono" style="color:var(--text-faint); margin-left:4px;">akurasi saat ini ~50/50</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-name">Automasi LLM Lokal</div>
+        <div class="project-tag ml">LLM / AUTOMATION</div>
+        <div class="project-status">Pengembangan aktif</div>
+      </div>
+      <div class="project-body">
+        <div class="project-block">
+          <div class="project-block-label mono">Ringkasan</div>
+          <p class="project-desc">Sistem otomasi berbasis model bahasa lokal untuk menjalankan tugas-tugas proyek tanpa bergantung pada API pihak ketiga.</p>
+        </div>
+        <div class="project-block">
+          <div class="project-block-label mono">Proses</div>
+          <p class="project-desc">Menjalankan beberapa model lokal — Gemma 2 3B & 9B, Qwen2.5 3B, dan Qwen2.5-VL 3B — dan sudah berhasil melakukan tool calling ke komponen ML di dalamnya. Sempat dihubungkan ke bot Telegram dan terbukti bisa menjalankan peran customer service otomatis, menggantikan sebagian pekerjaan yang biasanya membutuhkan manusia sekaligus menghemat biaya operasional.</p>
+        </div>
+        <div class="project-stack mono">
+          <span>Python</span><span>LLM Lokal</span><span>Tool Calling</span><span>Telegram Bot API</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-meta">
+        <div class="project-name">Sistem Manajemen Aset — RS Badak LNG</div>
+        <div class="project-tag">WEB</div>
+        <div class="project-status">Closing · dipakai aktif</div>
+      </div>
+      <div class="project-body">
+        <div class="project-block">
+          <div class="project-block-label mono">Ringkasan</div>
+          <p class="project-desc">Sistem untuk mengelola inventaris, unit, dan badge di lingkungan Rumah Sakit Badak LNG.</p>
+        </div>
+        <div class="project-block">
+          <div class="project-block-label mono">Proses</div>
+          <p class="project-desc">Dibangun untuk merapikan pencatatan aset yang sebelumnya dilakukan manual, dan dirancang mengikuti alur kerja staf di lapangan. Proyek ini closing dengan Rumah Sakit Badak LNG dan sekarang digunakan secara aktif di sana — salah satu proyek yang sempat membuka tawaran kerja sambil kuliah untuk saya.</p>
+        </div>
+        <div class="project-stack mono">
+          <span>PHP</span><span>Laravel</span><span>JavaScript</span><span>CSS</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="contact">
+      <h2>Tertarik kolaborasi?</h2>
+      <div class="contact-links">
+        <a href="mailto:andressianipar183@gmail.com">andressianipar183@gmail.com</a>
+        <a href="https://instagram.com/ndres_ary" target="_blank" rel="noopener">@ndres_ary</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>Andres Sanoel Sianipar</span>
+  <span class="mono">Dibangun dengan HTML, CSS & JavaScript</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
