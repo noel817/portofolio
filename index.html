@@ -5,22 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Andres Sanoel Sianipar — Full-Stack Developer & Automation</title>
 <meta name="description" content="Portofolio Andres Sanoel Sianipar: Full-Stack Developer, Automation & Customer Service.">
+<meta name="author" content="Andres Sanoel Sianipar">
+<meta name="theme-color" content="#C9A227">
+
+<link rel="canonical" href="https://example.com/index.html">
+
+<!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.com/index.html">
+<meta property="og:title" content="Andres Sanoel Sianipar — Full-Stack Developer & Automation">
+<meta property="og:description" content="Portofolio Andres Sanoel Sianipar: Full-Stack Developer, Automation & Customer Service.">
+<meta property="og:image" content="https://example.com/og-image.png">
+<meta property="og:image:alt" content="Andres Sanoel Sianipar — Full-Stack Developer & Automation">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="Andres Sanoel Sianipar">
+
+<!-- Twitter/X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Andres Sanoel Sianipar — Full-Stack Developer & Automation">
+<meta name="twitter:description" content="Portofolio Andres Sanoel Sianipar: Full-Stack Developer, Automation & Customer Service.">
+<meta name="twitter:image" content="https://example.com/og-image.png">
+
+<!-- Favicon inline (tanpa file tambahan) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111111'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='600' fill='%23C9A227' text-anchor='middle'%3EAS%3C/text%3E%3C/svg%3E">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andres Sanoel Sianipar",
+  "url": "https://example.com/",
+  "email": "mailto:andressianipar183@gmail.com",
+  "jobTitle": "Full-Stack Developer, Automation & Customer Service",
+  "description": "Full-Stack Developer yang membangun sistem web dan automation, serta mengeksplorasi machine learning dan LLM lokal.",
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "SMKN 1 Bontang"
+  },
+  "knowsAbout": [
+    "JavaScript",
+    "PHP",
+    "Laravel",
+    "Python",
+    "HTML",
+    "CSS",
+    "Process Automation",
+    "Machine Learning",
+    "Local LLM"
+  ],
+  "sameAs": [
+    "https://instagram.com/ndres_ary"
+  ]
+}
+</script>
 </head>
 <body>
 
 <header>
-  <nav class="wrap">
+  <nav class="wrap" aria-label="Navigasi utama">
     <a href="index.html" class="nav-name">
-      <span class="nav-mono-badge">AS</span>
+      <span class="nav-mono-badge" aria-hidden="true">AS</span>
       Andres Sanoel Sianipar
     </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">☰</button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html#about" class="active">Tentang</a></li>
+      <li><a href="index.html#about" class="active" aria-current="page">Tentang</a></li>
       <li><a href="proyek.html">Proyek</a></li>
       <li><a href="index.html#contact">Kontak</a></li>
     </ul>
@@ -29,17 +83,17 @@
 
 <main id="top">
 
-  <section class="hero" style="border-top:none;">
-    <div class="hero-bg"></div>
-    <svg class="hero-wave" viewBox="0 0 420 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <section class="hero" style="border-top:none;" aria-labelledby="hero-title">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <svg class="hero-wave" viewBox="0 0 420 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
       <path d="M0 140 L40 140 L60 90 L80 160 L100 60 L120 140 L150 140 L170 110 L190 150 L210 40 L230 140 L420 140" stroke="#C9A227" stroke-width="1.2" stroke-opacity="0.5"/>
       <path d="M0 170 L60 170 L90 130 L120 180 L160 100 L200 170 L420 170" stroke="#4FD1AE" stroke-width="1" stroke-opacity="0.22"/>
     </svg>
     <div class="wrap">
-      <div class="hero-badge mono">AS</div>
-      <div class="hero-eyebrow mono">Full-Stack Developer, Automation & Customer Service</div>
-      <h1>Halo, saya Andres Sanoel Sianipar.</h1>
-      <p class="hero-role">Saya membangun sistem web dan otomasi dari kebutuhan yang benar-benar terjadi di lapangan — mulai dari mengelola ujian sekolah, membaca sinyal pasar, sampai menjalankan LLM lokal sebagai customer service digital.</p>
+      <div class="hero-badge mono" aria-hidden="true">AS</div>
+      <div class="hero-eyebrow mono">Full-Stack Developer, Automation &amp; Customer Service</div>
+      <h1 id="hero-title">Halo, saya Andres Sanoel Sianipar.</h1>
+      <p class="hero-role">Saya membangun sistem web dan automation dari kebutuhan yang benar-benar terjadi di lapangan — mulai dari mengelola ujian sekolah, membaca sinyal pasar, sampai menjalankan LLM lokal sebagai customer service digital.</p>
       <div class="hero-cta">
         <a href="proyek.html" class="btn btn-primary">Lihat semua proyek</a>
         <a href="#contact" class="btn btn-secondary">Hubungi saya</a>
@@ -52,33 +106,33 @@
         </div>
         <div class="ticker-item">
           <div class="ticker-value mono">2</div>
-          <div class="ticker-label">proyek closing & dipakai RS Badak LNG</div>
+          <div class="ticker-label">proyek closing &amp; dipakai RS Badak LNG</div>
         </div>
         <div class="ticker-item">
           <div class="ticker-value mono">6 bln</div>
-          <div class="ticker-label">magang industri (PKT & RS Badak LNG)</div>
+          <div class="ticker-label">magang industri (PKT &amp; RS Badak LNG)</div>
         </div>
         <div class="ticker-item">
-          <div class="ticker-value mono">50/50</div>
-          <div class="ticker-label">akurasi model sinyal, tahap backtest</div>
+          <div class="ticker-value mono">Beta</div>
+          <div class="ticker-label">model sinyal pasar, tahap backtest</div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about" class="wrap">
+  <section id="about" class="wrap" aria-labelledby="about-title">
     <div class="section-head">
-      <h2>Tentang saya</h2>
+      <h2 id="about-title">Tentang saya</h2>
     </div>
     <div class="about-grid">
       <div class="about">
         <p>Jauh sebelum mengenal baris kode pertama, saya sudah lebih dulu berdiri di balik lapak grosir milik orang tua — sejak kelas 5 SD. Di sana, kecepatan berhitung dan kepekaan membaca apa yang sebenarnya dibutuhkan pembeli bukan sekadar keterampilan tambahan, melainkan syarat untuk bertahan. Kebiasaan itu, kurang lebih, masih saya bawa sampai sekarang — termasuk waktu iseng berjualan item dan akun dalam game secara mandiri.</p>
 
-        <p class="pull-quote">"Cepat menangkap masalah, lalu bergerak mencari solusinya."</p>
+        <p class="pull-quote">“Cepat menangkap masalah, lalu bergerak mencari solusinya.”</p>
 
-        <p>Jalur teknis saya dimulai di SMKN 1 Bontang, lalu diuji langsung lewat dua magang yang arahnya cukup berbeda: tiga bulan di divisi jaringan Pupuk Kaltim (PKT), dan tiga bulan lagi di divisi IT/software Rumah Sakit Badak LNG. Salah satu sistem yang saya bangun di sana ternyata benar-benar dipakai — bukan sekadar proyek magang yang berakhir di laporan — dan saya sempat ditawari untuk terus bekerja sambil kuliah.</p>
+        <p>Jalur teknis saya dimulai di SMKN 1 Bontang, lalu diuji langsung lewat dua magang yang arahnya cukup berbeda: tiga bulan di divisi jaringan Pupuk Kaltim (PKT), dan tiga bulan lagi di divisi IT/software Rumah Sakit Badak LNG. Sistem yang saya bangun di sana ternyata benar-benar dipakai — bukan sekadar proyek magang yang berakhir di laporan — dan saya sempat ditawari untuk terus bekerja sambil kuliah.</p>
 
-        <p>Sekarang saya membagi perhatian antara pengembangan web full-stack (JavaScript, PHP, Laravel) dan eksplorasi machine learning serta LLM lokal untuk otomasi. Dua dunia yang terlihat jauh berbeda ini sebenarnya bertumpu pada kebiasaan yang sama: memahami kebutuhan secepat mungkin, lalu membangun sesuatu yang benar-benar terpakai — bukan cuma berjalan mulus di demo.</p>
+        <p>Sekarang saya membagi perhatian antara pengembangan web full-stack (JavaScript, PHP, Laravel, Python) dan eksplorasi machine learning serta LLM lokal untuk automation. Dua dunia yang terlihat berbeda ini sebenarnya bertumpu pada kebiasaan yang sama: memahami kebutuhan secepat mungkin, lalu membangun sesuatu yang benar-benar terpakai — bukan cuma berjalan mulus di demo, tetapi berguna juga di kehidupan nyata.</p>
       </div>
       <div class="timeline">
         <div class="timeline-item">
@@ -89,7 +143,7 @@
         <div class="timeline-item">
           <span class="timeline-date mono">3 bulan</span>
           <div class="timeline-title">Magang — Pupuk Kaltim (PKT)</div>
-          <div class="timeline-sub">Divisi Jaringan</div>
+          <div class="timeline-sub">Dept. Keamanan – Renwat (Jaringan)</div>
         </div>
         <div class="timeline-item">
           <span class="timeline-date mono">3 bulan</span>
@@ -105,25 +159,25 @@
     </div>
   </section>
 
-  <section id="skills" class="wrap">
+  <section id="skills" class="wrap" aria-labelledby="skills-title">
     <div class="section-head">
-      <h2>Keahlian</h2>
+      <h2 id="skills-title">Keahlian</h2>
     </div>
     <div class="skills-grid">
       <div class="skill-group">
-        <h3>Web & Automasi</h3>
+        <h3>Web &amp; Automation</h3>
         <div class="skill-tags">
           <span>JavaScript</span>
           <span>PHP</span>
           <span>Laravel</span>
           <span>HTML</span>
           <span>CSS</span>
-          <span>Automasi Proses</span>
+          <span>Process Automation</span>
           <span>Separation of Concerns (SoC)</span>
         </div>
       </div>
       <div class="skill-group">
-        <h3>Data & Machine Learning</h3>
+        <h3>Data &amp; Machine Learning</h3>
         <div class="skill-tags">
           <span>Python</span>
           <span>Model Sinyal ML</span>
@@ -143,12 +197,12 @@
     </div>
   </section>
 
-  <section id="contact" class="wrap">
+  <section id="contact" class="wrap" aria-labelledby="contact-title">
     <div class="contact">
-      <h2>Ada proyek yang ingin didiskusikan?</h2>
+      <h2 id="contact-title">Ada proyek yang ingin didiskusikan?</h2>
       <div class="contact-links">
         <a href="mailto:andressianipar183@gmail.com">andressianipar183@gmail.com</a>
-        <a href="https://instagram.com/ndres_ary" target="_blank" rel="noopener">@ndres_ary</a>
+        <a href="https://instagram.com/ndres_ary" target="_blank" rel="noopener noreferrer">@ndres_ary</a>
       </div>
     </div>
   </section>
@@ -157,9 +211,9 @@
 
 <footer class="wrap">
   <span>Andres Sanoel Sianipar</span>
-  <span class="mono">Dibangun dengan HTML, CSS & JavaScript</span>
+  <span class="mono">Dibangun dengan HTML, CSS &amp; JavaScript</span>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
